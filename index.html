@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dlex - Workflow Solutions</title> 
+    <meta name="description" content="Dlex - Workflow Solutions">   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+              <div class="logo">
+                <img src="img/logo.svg" loading="lazy" width="88" height="36" alt="Логотип Dlex">
+              </div>
+                <ul class="nav-links">
+                    <li><a href="#">Product</a></li>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Marketplace</a></li>
+                    <li><a href="#">Company</a></li>
+                </ul>
+                <div class="auth-buttons">
+                    <a href="#" class="btn btn-link">Sign In</a>
+                    <button class="btn btn-primary btn-signup">Sign Up</button>
+                </div>
+                <div class="burger-menu">☰</div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero-section">
+            <div class="container">
+                <h1>Have no fear of perfection,<br>you'll never reach it.</h1>
+                <p>Create Interactive user flow diagrams that tell a story.</p>
+                <div class="video-container">
+                    <div class="decoration top-left">
+                        <img src="img/dec_voucher.png" loading="lazy" width="173" height="77" alt="Decoration">
+                    </div>    
+                    <video id="hero-video" controls>
+                        <source src="img/video.mp4" type="video/mp4">
+                        Ваш браузер не поддерживает видео.
+                    </video>
+                    <div class="decoration bottom-right">
+                        <img src="img/dec_sent.png" loading="lazy" width="260" height="132" alt="Decoration">
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="features-section">
+          <div class="container">
+            <p class="features-section-indigo">Why Dlex</p>
+            <h2>Creativity is nothing but the way to solve new problems.</h2>
+            <div class="features-grid" id="features-grid">              
+              <div class="feature-card">
+                <img src="img/ui_design_icon.svg" loading="lazy" width="48" height="48" alt="UI Design">
+                <h4>UI Design</h4>
+                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat.</p>
+              </div>
+              <div class="feature-card">
+                <img src="img/ux_research_icon.svg" loading="lazy" width="48" height="48" alt="UX Research">
+                <h4>UX & Research</h4>
+                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat.</p>
+              </div>
+              <div class="feature-card">
+                <img src="img/fast-delivery_icon.svg" loading="lazy" width="48" height="48" alt="Fast delivery">
+                <h4>Fast delivery</h4>
+                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat.</p>
+              </div>
+              <div class="feature-card">
+                <img src="img/customer_support_icon.svg" loading="lazy" width="48" height="48" alt="Customer support">
+                <h4>Customer support</h4>
+                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat.</p>
+              </div>
+            </div>
+            <div class="slider-controls">
+              <button class="slider-arrow slider-arrow-prev" id="slider-arrow-prev"><img loading="lazy" src="img/arrow-right.svg" alt="left"></button>
+              <div id="slider-dots" class="slider-dots">
+                <span class="slider-dot active"></span>
+                <span class="slider-dot"></span>
+                <span class="slider-dot"></span>
+                <span class="slider-dot"></span>
+              </div>
+              <button class="slider-arrow slider-arrow-next" id="slider-arrow-next"><img loading="lazy" src="img/arrow-right.svg" alt="right"></button>
+            </div>
+          </div>
+        </section>
+
+        <section class="revenue-section">
+            <div class="container">
+              <p class="revenue-section-indigo">Optimize your payments</p>
+                 <h2>Grow your revenue</h2>
+                <div class="revenue-content">
+                    <div class="revenue-item">
+                        <h3>Improve analytics</h3>
+                        <p>By leveraging predictive modeling and cross-source data synchronization or anomaly detection algorithms, empowering teams to make data-driven decisions.</p>
+                        <img src="img/analytics_dashboard.png" loading="lazy" width="456" height="298" alt="Analytics Dashboard">
+                        <ul class="feature-list">
+                            <li class="feature-item">Upgrade your customer experience instantly</li>
+                            <li class="feature-item">Retain more, happier customers</li>
+                            <li class="feature-item">Start with done-for-you account setup</li>
+                        </ul>
+                    </div>
+                     <div class="revenue-item">
+                        <h3>Maximize acceptance</h3>
+                        <p>By using deception or false suggestions or suppression of truth or other unethical means, which are believed and relied upon by.</p>
+                        <img src="img/code_editor_example.png" loading="lazy" width="548" height="298" alt="Code Editor Example">
+                        <ul class="feature-list">
+                            <li class="feature-item">Upgrade your customer experience instantly</li>
+                            <li class="feature-item">Retain more, happier customers</li>
+                            <li class="feature-item">Start with done-for-you account setup</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="pricing-section">
+            <div class="container">
+                <div class="pricing-wrapper">
+                    <div class="pricing-text">
+                        <h2>Everything you need for <span>$99 a month</span></h2>
+                        <p>Includes every feature we offer plus unlimited projects and unlimited users</p>
+                    </div>
+                    <div class="pricing-btn"><button class="btn btn-primary btn-get-started">Get Started Now</button></div>
+                </div>   
+            </div>
+        </section>
+
+        <section class="boost-section">
+            <div class="container">
+                <div class="boost-wrapper">
+                <h2>Boost your productivity. Start using workflow today.</h2>
+                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint velit officia consequat duis enim velit mollit.</p>
+                 <button class="btn btn-bg-white btn-signup-free">Sign up for free</button>
+                 </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col footer-about">
+                    <div class="footer-logo">
+                        <img src="img/logo_footer.svg" loading="lazy" width="90" height="36" alt="Логотип Dlex">
+                      </div>
+                    <p>Making the world a better place through constructing elegant hierarchies</p>                     
+                        <ul class="social-links">
+                            <li><a href="#"><img src="img/logo-facebook.svg" loading="lazy" width="24" height="24" alt="Facebook"></a></li>
+                            <li><a href="#"><img src="img/logo-twitter.svg" loading="lazy" width="24" height="24" alt="Twitter"></a></li>
+                            <li><a href="#"><img src="img/logo-instagram.svg" loading="lazy" width="24" height="24" alt="Instagram"></a></li>
+                            <li><a href="#"><img src="img/logo-github.svg" loading="lazy" width="24" height="24" alt="Github"></a></li>
+                        </ul>            
+                </div>
+                 <div class="footer-col">
+                    <h4>Solutions</h4>
+                    <ul>
+                        <li><a href="#">Marketing</a></li>
+                        <li><a href="#">Analytics</a></li>
+                        <li><a href="#">Commerce</a></li>
+                        <li><a href="#">Insights</a></li>
+                    </ul>
+                </div>
+                 <div class="footer-col">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Documentation</a></li>
+                        <li><a href="#">Guides</a></li>
+                        <li><a href="#">API Status</a></li>
+                    </ul>
+                </div>
+                 <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Jobs</a></li>
+                        <li><a href="#">Press</a></li>
+                        <li><a href="#">Partners</a></li>
+                    </ul>
+                </div>
+                 <div class="footer-col">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#">Claim</a></li>
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Terms</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                &copy; 2025 Dlex, Inc. All rights reserved
+            </div>
+        </div>
+    </footer>
+
+    <!-- Popup HTML -->
+    <div class="popup-overlay" id="popup-overlay">
+        <div class="popup-content">
+          <div class="popup-info">
+            <img src="img/logo.svg" loading="lazy" width="88" height="36" alt="Логотип Dlex">
+            <h3 class="popup-title">Join the club</h3>
+            <p class="popup-description">
+              Subscribe and Get an Extra 25% Off on your first purchase.
+            </p>
+            <input type="email" class="popup-input" placeholder="Email address">
+            <button class="btn popup-btn">Subscribe</button>
+            <p class="popup-agreement">
+              By signing up, you agree to Privacy Policy and Terms of Use.
+            </p>
+          </div>
+          <div class="popup-image">
+            <img src="img/modal_img.jpg" loading="lazy" alt="Promotional image">
+          </div>
+          <button class="btn-close-popup popup-close">×</button>
+        </div>
+      </div>
+    <script src="script.js"></script>
+</body>
+</html>
